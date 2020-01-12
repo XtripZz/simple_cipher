@@ -1,0 +1,65 @@
+body .container {
+  background: #b6b6b6;
+  min-height: 680px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+body .container input {
+  margin: 20px 0 0 50px;
+  background: #004200;
+  border: 2px solid black;
+  color: #12a512;
+  width: 300px;
+}
+body .container input:focus {
+  border: 2px solid green;
+  outline: none;
+}
+body .container button {
+  background: #004200;
+  margin: 0 0 0 20px;
+  width: 100px;
+  height: 30px;
+  color: #9c9c9c;
+  border: 2px solid black;
+  outline: none;
+  transition: 0.2s;
+}
+body .container button:hover {
+  background: black;
+  color: yellowgreen;
+}
+body .container button:active {
+  color: red;
+  border: 2px solid red;
+}
+body .container h1 {
+  color: rgba(0, 63, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  padding: 10px 0 0 0;
+}
+body .out1,
+body .out2,
+body .out3 {
+  border: 2px solid green;
+  min-height: 50px;
+  margin: 30px 0 0 50px;
+  background: #002400;
+  color: #86d411;
+}
+body .encrypt1,
+body .encrypt2,
+body .decrypt {
+  color: #005c00;
+  margin: 30px 0 0 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+body .enterText {
+  font-weight: bold;
+  margin: 50px 0 0 50px;
+}

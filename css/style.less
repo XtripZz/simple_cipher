@@ -1,0 +1,77 @@
+body {
+    .container {
+        background: rgb(182, 182, 182);
+        min-height: 680px;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+
+        input {
+            margin: 20px 0 0 50px;
+            background: rgb(0, 66, 0);
+            border: 2px solid black;
+            color: rgb(18, 165, 18);
+            width: 300px;
+
+            &:focus {
+                border: 2px solid green;
+                outline: none;
+            }
+        }
+
+        button {
+            background: rgb(0, 66, 0);
+            margin: 0 0 0 20px;
+            width: 100px;
+            height: 30px;
+            color: rgb(156, 156, 156);
+            border: 2px solid black;
+            outline: none;
+            transition: .2s;
+
+            &:hover {
+                background: black;
+                color: yellowgreen;
+            }
+
+            &:active {
+                color: red;
+                border: 2px solid red;
+            }
+        }
+
+        h1 {
+            color: rgba(0, 63, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            padding: 10px 0 0 0;
+        }
+    }
+
+
+    .out1,
+    .out2,
+    .out3 {
+        border: 2px solid green;
+        min-height: 50px;
+        margin: 30px 0 0 50px;
+        background: rgb(0, 36, 0);
+        color: rgb(134, 212, 17);
+    }
+
+    .encrypt1,
+    .encrypt2,
+    .decrypt {
+        color: rgb(0, 92, 0);
+        margin: 30px 0 0 100px;
+        font-size: 1.2em;
+        font-weight: bold;
+        border-top: 2px solid black;
+    }
+
+    .enterText {
+        font-weight: bold;
+        margin: 50px 0 0 50px;
+    }
+}
